@@ -1,15 +1,14 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
 gem 'ruby-hmac'
-gem 'soap4r'
+gem 'soap2r'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
   gem 'shoulda'
-  gem "bundler", "~> 1.0.0"
+  gem 'bundler'
   gem 'ruby-graphviz'
-  gem "jeweler", "~> 1.5.2"
-  gem "rcov", ">= 0"
+  gem 'jeweler'
   gem 'redgreen'
 end
